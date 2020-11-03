@@ -1,0 +1,58 @@
+body {
+  background-color: #f6f6f6;
+  text-align: center;
+}
+
+#image-display {
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.selected-image {
+  height: 100px;
+  position: relative;
+  display: none;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.pad5 {
+  padding: 5%;
+}
+
+h1 {
+  padding: 5% 5%;
+}
+
+h2 {
+  padding: 5% 5%;
+}
+
+.overlay-image {
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  right: 25%;
+  top: 15%;
+}
+
+.dropdown {
+  width: 50%;
+  text-align: center;
+}
+
+.radio-button{
+  width: 1.25rem;
+  height: 1.25rem;
+  position: relative;
+  top: 4px;
+}
+
+.size-text{
+font-size: 1.25rem;
+}

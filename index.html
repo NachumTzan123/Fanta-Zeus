@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Fanta Zeus</title>
+  <link rel='icon' href='favicon.ico'/ >
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://kit.fontawesome.com/21f038482d.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/21f038482d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="pad5">
+  <div id="header" class="pad5">
+    <h1>Fanta Zeus</h1>
+    <div class="row align-left pad5">
+      <div class="col-md-4 ">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="#image-display">Gallery</a></li>
+          <li><a href="#shirts">Shirts</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <h3>About me</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacinia lacus eros, id convallis risus facilisis non. Nam augue ipsum, tincidunt sed justo eget, cursus dapibus nisi. Nunc a leo vitae felis auctor sollicitudin vitae id libero. Vivamus eget placerat ligula, quis ullamcorper massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vestibulum augue in libero rhoncus, ut ornare arcu rhoncus. Mauris pulvinar, sem non sagittis pellentesque, felis justo ultricies.</p>
+      </div>
+    </div>
+  </div>
+  <div id="image-display" class="pad5">
+    <h2>Gallery</h2>
+    <div class="selected-image">
+    </div>
+    <div class="row">
+
+    </div>
+  </div>
+  <div id="shirts" class="pad5">
+    <h2>Pick Your Shirt!</h2>
+    <form class="pad5" action="index.html" method="post">
+      <label for="">Select print:</label>
+      <select class="dropdown custom-select-lg " name="prints" onchange="selectionChanged()">
+        <option value="Empty">Empty</option>
+      </select>
+      <br>
+      <br>
+      <div class="row" style="display: none;">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-2">
+          <input class="radio-button" type="radio" name="SmallRadio" value="1" onclick="radioButtonClick()">
+          <label class="size-text" for="">Small</label>
+        </div>
+        <div class="col-sm-2">
+          <input class="radio-button" type="radio" name="MediumRadio" value="2" onclick="radioButtonClick()">
+          <label class="size-text" for="">Medium</label>
+        </div>
+        <div class="col-sm-2">
+          <input class="radio-button" type="radio" name="LargeRadio" value="3" onclick="radioButtonClick()">
+          <label class="size-text" for="">Large</label>
+        </div>
+      </div>
+    </form>
+    <div class="row">
+
+    </div>
+  </div>
+  <div id="contact" class="pad5">
+    <h2>Contact me!</h2>
+    <a href="https://www.instagram.com/fanta_zeus/"><i class="fab fa-instagram fa-3x pad5"></i></a>
+    <!-- <a href="#"><i class="fab fa-facebook-f fa-3x pad5"></i></a> -->
+    <!-- <a href=""><i class="fas fa-envelope fa-3x pad5"></i></a> -->
+  </div>
+  <div id="footer" class="pad5">
+    <p>Fanta Zeus © All rights reserved 2020</p>
+    <p>Created by: Daniel Nachum</p>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="JS/index.js"></script>
+</body>
+</html>
